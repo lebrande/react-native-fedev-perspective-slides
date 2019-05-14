@@ -1,0 +1,268 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>React Native z Perspektywy Front-End Developera - Lebrande Jakub Pusiak</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/hybrid.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+        <!-- | -->
+
+				<section id="cover">
+          <h1>React Native</h1>
+          <p>z Perspektywy Front-End Developera <span class="fragment">*</span></p>
+          <div class="fragment">
+            <p>*mnie</p>
+          </div>
+        </section>
+
+        <!-- | -->
+
+        <section id="lebrande">
+          <img
+            src="./images/lebrande-profile.jpg" alt="@lebrande profile"
+            style="max-height: 500px; display: block; margin: 0 auto 1em;"
+          />
+        </section>
+
+        <!-- | -->
+
+        <section id="intive">
+          <img
+            src="./images/intive-logo.jpg" alt="intive"
+            style="max-height: 500px; display: block; margin: 0 auto 1em;"
+          />
+        </section>
+
+        <!-- | -->
+
+        <section id="higher-order-components">
+          <section id="hoc">
+            <p>Rozgrzewka</p>
+          </section>
+
+          <section id="another-hoc">
+            <p>Kto próbował pisać apki mobilne?</p>
+          </section>
+
+          <section id="another-hoc">
+            <p>Kto zna Reacta?</p>
+          </section>
+
+          <section id="another-hoc">
+            <p>Kto wie co to React Native?</p>
+          </section>
+
+          <section id="another-hoc">
+            <p>Kto próbował React Native?</p>
+          </section>
+
+          <section id="another-hoc">
+            <p>Kto zna inne podobne alternatywy? Flutter, Native Script itd.</p>
+          </section>
+        </section>
+
+        <!-- | -->
+
+        <section id="coding">
+          <section id="lets-code">
+            <p>A long time ago in Facebook far, far away…</p>
+            <p class="fragment">… 2013</p>
+          </section>
+
+          <section id="ordinary-state-component">
+            <p>Postawmy sobie framework! (just do it)</p>
+          </section>
+        </section>
+
+        <!-- | -->
+
+        <section id="compose">
+          <section id="ordinary-state-component-sandbox">
+            <p>Co to jest React Native?</p>
+            <img
+              class="fragment"
+              src="./images/react-native-landingpage-title.png"
+              alt="react-native-landingpage-title"
+              style="max-height: 500px; margin: 0 auto; display: block;"
+            >
+          </section>
+
+          <section>
+            <p>Czym nie jest Ract Native?</p>
+            <ul>
+              <li>Cordova, Phone Gap</li>
+              <li>web view - znamy i zegnamy, bo</li>
+              <ul>
+                <li>nie ma 60fps</li>
+                <li>jakaś głupia ramka</li>
+                <li>ograniczony UX/UI</li>
+              </ul>
+            </ul>
+          </section>
+
+          <section>
+            <p>Dlaczego React Native?</p>
+            <p class="fragment">Żeby pisać apki mobilne!</p>
+            <ul>
+              <li>w języku/frameworku, który już znam</li>
+              <li>zeby wpisac do CV</li>
+            </ul>
+          </section>
+
+          <section>
+            <p>Dla kogo jest RN? (kurtyna)</p>
+          </section>
+        </section>
+
+        <!-- | -->
+
+        <section id="recompose-recap">
+          <section>
+            <p>Jak zacząłem?</p>
+          </section>
+
+          <section>
+            <p>Youtube</p>
+            <p class="fragment">https://www.youtube.com/channel/UC7R7bcH9-KEBDiGNP1mZnmw/search?query=react+native + elixir :) instagram + node sklep</p>
+          </section>
+
+          <section>
+            <p><span class="fragment">dokumentacja</span> + <span class="fragment">google</span> + <span class="fragment">stack overflow</span></p>
+          </section>
+        </section>
+
+        <!-- | -->
+
+        <section>
+          <section>
+            <p>Wyzwania front-end developera:</p>
+          </section>
+
+          <section>
+            <p>style</p>
+          </section>
+
+          <section>
+            <p>local storage</p>
+          </section>
+
+          <section>
+            <p>routing</p>
+          </section>
+
+          <section>
+            <p>interactive components - buttons, inputs</p>
+          </section>
+        </section>
+
+        <!-- | -->
+
+        <section>
+          <section>
+            <h3>Ciekawostka</h3>
+            <p class="fragment">Co we front-endzie jest normą a dla developerów mobilnych jest kamieniem milowym?</p>
+            <ul>
+              <li class="fragment">devtoolsy</li>
+              <li class="fragment">nie trzeba kompilować - wstrzykiwanie bundla</li>
+              <li class="fragment">runtime debugger</li>
+            </ul>
+          </section>
+        </section>
+
+        <!-- | -->
+
+        <section>
+          <section>
+            <h3>Jak działa React / React Native?</h3>
+          </section>
+          <section>
+            <p>Virtual DOM</p>
+          </section>
+          <section>
+            <p>Schemat</p>
+          </section>
+        </section>
+
+        <!-- | -->
+
+        <section>
+          <section>
+            <h3>Brown vs green</h3>
+          </section>
+          <section>
+            <p>Da się tworzyć apki brownfield, już napisane natywnie.</p>
+          </section>
+        </section>
+
+        <!-- | -->
+
+        <section>
+          <section>
+            <h3>React Native EU 2018</h3>
+            <p>dobre piwo</p>
+          </section>
+          <section>
+            <p>Mało kto tam ma pojęcie o front-endzie.</p>
+          </section>
+          <section>
+            <p>Developerzy nie wybierają React Native, ze względu na JavaScript lub React. Wybierają React Native ponieważ jest cross-platformowy.</p>
+          </section>
+          <section>
+            <p>Zajebista impreza, wspaniali ludzie.</p>
+          </section>
+        </section>
+
+        <!-- | -->
+
+        <section id="the-end">
+          <p>
+            <h2>Elo!</h2>
+            <img
+              src="./images/lebrande.jpg" alt="Jakub Pusiak - lebrande"
+              style="max-height: 200px; display: block; margin: 0 auto 1em; border-radius: 100%;"
+            />
+            🙅‍♂️ Jakub Pusiak ️🤦‍♂️ @le_brande 🙆‍♂ #intive
+          </p>
+        </section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+        history: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+    </script>
+	</body>
+</html>
