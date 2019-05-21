@@ -1,7 +1,7 @@
 {
-  "name": "recompose-slides",
+  "name": "react-native-fedev-perspective-slides",
   "version": "0.1.0",
-  "description": "Recompose - HOCs everywhere",
+  "description": "React Native z Perspektywy Front-Endu - lebrande Jakub Pusiak",
   "main": "js/reveal.js",
   "scripts": {
     "test": "grunt test",
